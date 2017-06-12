@@ -19,7 +19,7 @@ tar xf download
 
 cd boost_${BV1}_${BV2}_${BV3}
 
-echo "using gcc : : /usr/local/bin/g++; " >> tools/build/src/user-config.jam
+echo "using gcc : : /usr/local/bin/g++ ; " >> tools/build/src/user-config.jam
 
 echo "./bootstrap.sh" 
 ./bootstrap.sh
